@@ -64,13 +64,7 @@ colors=(
 ##    (10,-1.1,-300),
 ##    )
 
-##def ground():
-##    glBegin(GL_QUADS)
-##    for vertex in ground_vertices:
-##        glColor3fv((0,0.5,0.5))
-##        glVertex3fv(vertex)
-##
-##    glEnd()
+
 
 def set_vertices(max_distance,min_distance=-20,camera_x=0,camera_y=0):
 
