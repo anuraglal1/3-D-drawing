@@ -1,4 +1,5 @@
 import pygame
+import panda as pd
 from pygame.locals import *
 
 from OpenGL.GL import *
