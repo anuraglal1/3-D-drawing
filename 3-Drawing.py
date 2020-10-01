@@ -204,7 +204,6 @@ def main():
         for each_cube in cube_dict:
             cube(cube_dict[each_cube])
 
-       # delete_list=[]
 
         for each_cube in cube_dict:
             if camera_z<=cube_dict[each_cube][0][2]:
