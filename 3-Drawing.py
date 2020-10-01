@@ -86,7 +86,7 @@ def set_vertices(max_distance,min_distance=-20,camera_x=0,camera_y=0):
        new_vert.append(new_x)
        new_vert.append(new_y)
        new_vert.append(new_z)
-
+       print(new_z)
        new_vertices.append(new_vert)
     return new_vertices
 
