@@ -175,12 +175,12 @@ def main():
 
 
                     
-##            if event.type==pygame.MOUSEBUTTONDOWN:
-##                if event.button==4:       #Scroll is moving Forward it is classified as 4
-##                    glTranslatef(0.0,0.0,1.0)
-##                if event.button==5:       #Scroll is moving Backward it is classified as 5
-##                    glTranslatef(0.0,0.0,-1.0)
-##                    
+            if event.type==pygame.MOUSEBUTTONDOWN:
+                if event.button==4:       #Scroll is moving Forward it is classified as 4
+                    glTranslatef(0.0,0.0,1.0)
+                if event.button==5:       #Scroll is moving Backward it is classified as 5
+                    glTranslatef(0.0,0.0,-1.0)
+                    
                     
 
         # glRotate(1,3,1,1)
