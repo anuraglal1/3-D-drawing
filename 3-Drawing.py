@@ -193,6 +193,8 @@ def main():
 
         cur_x+=x_move
         cur_y+=y_move
+        # To move in z-axis
+        cur_z+=z_move
         
         
         glTranslatef(x_move,y_move,game_speed)    
@@ -209,7 +211,7 @@ def main():
             if camera_z<=cube_dict[each_cube][0][2]:
                 new_max=int(-1*(camera_z-(max_distance*2)))
 
-                cube_dict[each_cube]=set_vertices(new_max,int(camera_z-max_distance),cur_x,cur_y)
+                cube_dict[each_cube]=set_vertices(new_max,int(camera_z-max_distance),cur_x,cur_y, cur_z)
                         
         
     
